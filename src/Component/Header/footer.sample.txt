@@ -1,0 +1,35 @@
+<div className='main-column d-flex justify-content-center flex-column p-5'>
+    <div className='mb-3'>
+        <h5>PHONE</h5>
+        <p className='fw-bold text-white'>+91 9545282408</p>
+    </div>
+    <div className='mb-3'>
+        <h5>EMAIL</h5>
+        <p className='fw-bold text-white'>ansariabdulahad3@gmail.com</p>
+    </div>
+    <div className='mb-3'>
+        <h5>SOCIAL</h5>
+        <div className='text-white fs-3 social-icon'>
+            <i className='fa fa-facebook'></i>
+            <i className='fa fa-twitter mx-3'></i>
+            <i className='fa fa-instagram'></i>
+        </div>
+    </div>
+</div>
+
+<Row>
+    <Col md>
+        <img src="footer-logo.png" alt="footer-logo" width="100%" />
+    </Col>
+    <Col md>
+        <h1 className='text-white mx-5 mt-3 mb-3'>Contact Us</h1>
+        <div className='mb-3'>
+            <h5>PHONE</h5>
+            <p className='fw-bold text-white'>+91 9545282408</p>
+        </div>
+        <div className='mb-3'>
+            <h5>EMAIL</h5>
+            <p className='fw-bold text-white'>ansariabdulahad3@gmail.com</p>
+        </div>
+    </Col>
+</Row>

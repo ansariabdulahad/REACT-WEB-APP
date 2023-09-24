@@ -1,0 +1,26 @@
+.footer-bg {
+  background-color: #000;
+}
+
+.footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer h5 {
+  color: #1dcd8c;
+}
+
+.footer .social-icon i:hover {
+  cursor: pointer;
+  color: #1dcd8c !important;
+}
+
+@media (max-width: 767px) {
+  /* .footer .main-column {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: start !important;
+    flex-direction: column !important;
+    padding: 10px !important;
+  } */
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "fa fa-facebook",
+    "title": "Facebook",
+    "subTitle": "Create your account on Facebook !"
+  },
+  {
+    "icon": "fa fa-twitter",
+    "title": "Twitter",
+    "subTitle": "Make a some awesome twitt !"
+  },
+  {
+    "icon": "fa fa-envelope",
+    "title": "E-Mail",
+    "subTitle": "Send mail to your closest friend !"
+  },
+  {
+    "icon": "fa fa-instagram",
+    "title": "Instagram",
+    "subTitle": "Post a beautiful picture to show the world !"
+  },
+  {
+    "icon": "fa fa-whatsapp",
+    "title": "Whatsapp",
+    "subTitle": "Connect with your new friends !"
+  }
+]

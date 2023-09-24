@@ -1,0 +1,119 @@
+.nav-link,
+.brand-name {
+  font-family: "Poppins", sans-serif;
+}
+
+#basic-nav-dropdown {
+  color: #fff !important;
+}
+
+.arrow {
+  font-size: 40px;
+  position: absolute;
+  top: -27px;
+  left: 27px;
+  color: white;
+}
+
+.dropdown-menu {
+  position: relative;
+  top: 58px !important;
+  animation: flipInY;
+  animation-duration: 1s;
+}
+
+.sticky {
+  background-color: #fff !important;
+  transition: 0.5s ease-in;
+  box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+  animation: slideInDown;
+  animation-duration: 0.5s;
+}
+
+.sticky .nav-link,
+.sticky .navbar-brand,
+.sticky #basic-nav-dropdown {
+  color: #000 !important;
+}
+
+.sticky .nav-link:hover {
+  border-bottom: 1px solid #000;
+  box-shadow: 0px 0px 3px #b8a9a962;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: inherit;
+    background-color: #000;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    background: inherit;
+  }
+
+  .navbar-toggler-icon::before {
+    font-family: "FontAwesome";
+    content: "\f038";
+    color: #000;
+    font-size: 30px;
+  }
+
+  .arrow {
+    top: 17px;
+  }
+
+  .dropdown-menu {
+    animation: slideInRight;
+    animation-duration: 1s;
+    padding-left: 10px;
+  }
+}
+
+/* @media (max-width: 820px) {
+  .navbar {
+    position: inherit;
+    background-color: #000;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    background: inherit;
+  }
+
+  .navbar-toggler-icon::before {
+    font-family: "FontAwesome";
+    content: "\f038";
+    color: #000;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 912px) {
+  .navbar {
+    position: inherit;
+    background-color: #000;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+  }
+
+  .navbar-toggler-icon {
+    background: inherit;
+  }
+
+  .navbar-toggler-icon::before {
+    font-family: "FontAwesome";
+    content: "\f038";
+    color: #000;
+    font-size: 30px;
+  }
+} */

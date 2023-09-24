@@ -1,0 +1,27 @@
+.testimonials-bg {
+  background-color: #fff;
+}
+
+.testimonials h1 {
+  text-align: center;
+  color: #1dcd8c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.testimonials .main-card {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 10px;
+  max-height: fit-content;
+  border-radius: 20px;
+}
+
+.testimonials .main-card img {
+  border-radius: 50% !important;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  border: 1px solid #1dcd8c;
+  box-shadow: 0px 0px 5px #1dcd8c;
+}

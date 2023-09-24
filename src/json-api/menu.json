@@ -1,0 +1,46 @@
+[
+  {
+    "label": "Home",
+    "link": "/",
+    "isDropdown": false,
+    "isButton": false
+  },
+  {
+    "label": "Blog",
+    "link": "/blog",
+    "isDropdown": false,
+    "isButton": false
+  },
+  {
+    "label": "Website",
+    "link": "/website",
+    "isDropdown": false,
+    "isButton": false
+  },
+  {
+    "label": "Services",
+    "link": "/services",
+    "isDropdown": true,
+    "isButton": false,
+    "dropdownMenu": [
+      {
+        "label": "Teams",
+        "link": "/team"
+      },
+      {
+        "label": "Contact",
+        "link": "/contact"
+      },
+      {
+        "label": "images",
+        "link": "/images"
+      }
+    ]
+  },
+  {
+    "label": "Register",
+    "link": "/register",
+    "isDropdown": false,
+    "isButton": true
+  }
+]

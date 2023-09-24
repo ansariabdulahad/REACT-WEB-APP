@@ -1,0 +1,36 @@
+.category-box {
+  position: relative;
+  top: -70px;
+}
+
+.category-box .icon-box {
+  width: 100px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-in;
+  box-shadow: 0px 0px 10px slateblue;
+}
+
+.category-box .main-card {
+  box-shadow: 0px 0px 10px slateblue;
+}
+
+.category-box .icon-box i {
+  font-size: 50px;
+  color: slateblue;
+  cursor: pointer;
+}
+
+.category-box .icon-box:hover {
+  background-color: slateblue;
+}
+
+.category-box .icon-box:hover i {
+  color: #fff;
+}
